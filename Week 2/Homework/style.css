@@ -1,0 +1,100 @@
+body {
+    background-color: black;
+}
+.bg-first {
+    background-color: rgb(231, 231, 231);
+    height: 320px;
+    border: black solid 1px;
+}
+
+.bg-second {
+    background-color: rgb(231, 231, 231);
+    height: 320px;
+    border: black solid 1px;
+}
+
+.bg-third {
+    background-color: rgb(231, 231, 231);
+    height: 320px;
+    border: black solid 1px;
+}
+
+.bg-fourth {
+    background-color: rgb(231, 231, 231);
+    height: 320px;
+    border: black solid 1px;
+}
+
+.bg-fifth {
+    background-color: rgb(231, 231, 231);
+    height: 320px;
+    border: black solid 1px;
+}
+
+.bg-sixth {
+    background-color: rgb(231, 231, 231);
+    height: 320px;
+    border: black solid 1px;
+}
+
+.title {
+    font-size: 25px;
+}
+
+.par {
+    padding-top: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.image {
+    margin: auto;
+}
+
+@media(max-width: 768px) {
+    .bg-first {
+        background-color: white;
+        width: 340px;
+        height: 400px;
+        margin: auto;
+        border: none;
+    }
+
+    .bg-second {
+        background-color: black;
+        height: 320px;
+        border: none;
+        margin: auto;
+    }
+
+    .bg-third {
+        background-color: white;
+        width: 340px;
+        height: 400px;
+        margin: auto;
+        border: none;
+    }
+
+    .bg-fourth {
+        background-color: black;
+        height: 320px;
+        border: none;
+        margin: auto;
+    }
+
+    .bg-fifth {
+        background-color: white;
+        width: 340px;
+        height: 400px;
+        margin: auto;
+        border: none;
+    }
+
+    .bg-sixth {
+        background-color: black;
+        height: 320px;
+        border: none;
+        margin: auto;
+    }
+}

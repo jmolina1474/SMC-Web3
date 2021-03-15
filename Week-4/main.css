@@ -1,0 +1,73 @@
+.div {
+    margin: auto;
+    max-width: 900px;
+    background-color: #b4ffff;
+    padding: 25px;
+    border: 5px solid #b4ffff;
+    border-radius: 5%;
+}
+
+.row-cols-md-3 > * {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+  
+section.jumbotron {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.bg-transparent {
+    background-color: rgba(20, 20, 20, 0.5) !important;
+    text-align: center;
+}
+
+.bg-light {
+    background-color: #ff7b00!important;
+}
+
+.card {
+    background-color: #e4afff;
+    border-radius: 2%;
+    color: #538d22;
+}
+
+body {
+    background-color: #ffea00;
+}
+
+.text-white {
+    color: #e4afff !important;
+}
+
+.serif {
+    font-family: 'Vollkorn', serif;
+}
+
+.serif-sub {
+    font-weight: 500;
+}
+
+.sans-serif-text {
+    font-weight: 400;
+}
+
+.sans-serif {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media(min-width: 768px) {
+    .row-cols-md-3 > * {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+}
+
+@media(max-width: 480px) {
+    .row-cols-md-3 > * {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}

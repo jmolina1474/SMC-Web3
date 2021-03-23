@@ -6,10 +6,17 @@ $( document ).ready(function() {
         $("#form, #pay").toggle();
     })
 
-    $(function () {
-        $('#same').on('click', function () {
-            var text = $('#firstname');
-            text.val(text.val() + ' after clicking');    
-        });
-    });
+    let uNinput = document.getElementById("firstname");
+	let shNinput = document.getElementById("firstname2");
+	let aNinput = document.getElementById("address1");
+	let adNinput = document.getElementById("address2");
+
+			uNinput.addEventListener("blur", function() {
+				if (this.value != "") {
+					shNinput.value = this.value;
+				} else {
+					alert("Please add a Name!");
+				}
+
+			})
 });

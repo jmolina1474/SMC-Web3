@@ -1,0 +1,103 @@
+/* CSS Stylesheet------------------------------------------------------ */
+body {
+    background-color: rgb(204, 204, 204);
+}
+/* Navbar */
+.navbar {
+    background-color: rgb(182, 122, 11) !important;
+}
+
+/* Jumbotron */
+section.jumbotron {
+    background-size: cover;
+    background-position: center;
+}
+
+.text-white {
+    color: #ededed !important;
+}
+
+.bg-transparent {
+    background-color: rgba(20, 20, 20, 0.3) !important;
+    padding: 5px 0px 5px 0px;
+}
+
+.jumbo {
+    padding: 10%;
+    color: black;
+}
+
+.black-text {
+    color: black;
+}
+
+/* Body - Home */
+.div {
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.products {
+    max-width: 100%;
+    border: solid 2px black;
+}
+
+/* Cards - Team */
+.row-cols-md-3 > * {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.card {
+    border: none;
+}
+
+.container {
+    padding-bottom: 10px;
+}
+
+/* Modal */
+.Hide {
+    display: none;
+}
+
+.modal-content {
+    padding: 3%;
+    border: none;
+}
+
+.form-check {
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 2.5em;
+    margin-bottom: .125rem;
+}
+
+/* Different Media Sizes */
+
+@media(min-width: 768px) {
+    .row-cols-md-3 > * {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+
+    .col-text {
+        max-width: 75%;
+    }
+
+    .col-image {
+        max-width: 25%;
+    }
+}
+
+@media(max-width: 480px) {
+    .row-cols-md-3 > * {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+}

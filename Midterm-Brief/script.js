@@ -1,4 +1,5 @@
 // Javascript page
+console.log($);
 $(document).ready(function(){
 
     $('#myCarousel').carousel({

@@ -1,0 +1,78 @@
+/* Navbar----------------------------- */
+.topnav {
+    background-image: linear-gradient(90deg, rgba(32,85,181,1) 13%, rgba(32,85,181,0) 75%);
+    overflow: hidden;
+  }
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    width: 100px
+  }
+  
+.topnav a.active {
+    background-color: #254a81;
+    color: white;
+  }
+
+  /* Content---------------------------- */
+  body {
+      background-color: lightskyblue;
+  }
+
+  .shark {
+      max-width: 100%;
+  }
+
+  .shark:hover {
+      transform:rotate(45deg) scale(1.5, 1.5);
+  }
+
+  .logo {
+    outline: 0;
+    float: right;
+    padding: 5px 10px 0px 10px;
+}
+
+  .logo:focus {
+    transform: rotate(90deg);
+  }
+
+  /* Grid ------------------ */
+
+  .grid-container {
+    display: grid;
+    max-width: 800px;
+    margin: auto;
+    row-gap: 0px;
+    column-gap: 4px;
+  }
+
+  .grid-item1 {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+  }
+
+  .grid-item2 {
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+  }
+
+  .grid-item3 {
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
+  }
+
+  .grid-item4 {
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+  }

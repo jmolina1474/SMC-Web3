@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+
+    <title>Products Page</title>
+  </head>
+  <body>
+<!-- Header ---------------------------------------------------------------------------------------------------------------------------------- -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="products.html">Products</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="help.html">Help/FAQ</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Cart</button>
+
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+<!-- Main------------------------------------------------------------------------------------------------------------------------------------- -->
+    <main>
+        <!-- Cart--- -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 id="offcanvasRightLabel">Shopping Cart</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              Cart is Empty
+            </div>
+          </div>
+
+        <!-- Carousel ------------------------------------------------------------------------------------------------ -->
+        
+        <div class="carousel div">
+
+          <div class="slideshow-container">
+
+          <div class="mySlides fade1">
+            <div class="numbertext">1 / 3</div>
+            <img src="https://i5.walmartimages.com/asr/9e699a9d-9d19-4c92-b4e6-2a0bf174e4ed.16b683e39b7d7b1bee60f9ae77e3f959.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff" style="width:100%" alt="Image1" class="crsl-img">
+            <div class="text">Caption Text</div>
+          </div>
+
+          <div class="mySlides fade1">
+            <div class="numbertext">2 / 3</div>
+            <img src="https://i5.walmartimages.com/asr/51d1f89e-d3e7-45d4-a001-f58b3a87dd4b_1.0fccd222fe940b9832b79b9fc59fa404.jpeg" style="width:100%" alt="Image2" class="crsl-img">
+            <div class="text">Caption Two</div>
+          </div>
+
+          <div class="mySlides fade1">
+            <div class="numbertext">3 / 3</div>
+            <img src="https://i5.walmartimages.com/asr/bb1894a1-a60d-4bf0-86ec-d7a4cf78c2b0.39114457fb1177a7f5e1f1a672a23b99.jpeg" style="width:100%" alt="Image3" class="crsl-img">
+            <div class="text">Caption Three</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+        </div>
+        <br>
+          
+        <!-- Content -->
+        <div class="div-offers2">
+            <h2 style="max-width: 50%; margin: auto;">On Sale Today</h2>
+
+            <h2 style="max-width: 50%; margin: auto;">Special Offer for you</h2>
+        </div>
+
+        <div class="div-offers2">
+            <div class="card text-white bg-dark mb-3" style="max-width: 50%; margin-right: 1%; margin-top: 1%;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                <h5 class="card-title">Dark card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+
+            <div class="card text-white bg-dark mb-3" style="max-width: 50%; margin-left: 1%; margin-top: 1%;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                <h5 class="card-title">Dark card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="div"><h3>Our Products</h3></div>
+        
+        <div class="div-products">
+        
+          <div class="card text-white bg-dark mb-3" style="max-width: 25%; margin-right: 1%;">
+            <div class="card-header"><h6>Scooter 1</h6></div>
+            <div class="card-body">
+            <h7 class="card-title">Price $50</h7>
+            <img src="https://i5.walmartimages.com/asr/bb1894a1-a60d-4bf0-86ec-d7a4cf78c2b0.39114457fb1177a7f5e1f1a672a23b99.jpeg" alt="" class="product-img">
+            </div>
+            <button type="button" class="btn btn-primary" href="item.html" style="max-width: 75%; margin: auto; margin-bottom: 2%;" onclick="window.location.href = 'item.html';">View Product</button>
+        </div>
+
+            <div class="card text-white bg-dark mb-3" style="max-width: 25%; margin-left: 1%; margin-right: 1%;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                <h5 class="card-title">Dark card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+
+            <div class="card text-white bg-dark mb-3" style="max-width: 25%; margin-left: 1%; margin-right: 1%;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                <h5 class="card-title">Dark card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+
+            <div class="card text-white bg-dark mb-3" style="max-width: 25%; margin-left: 1%;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                <h5 class="card-title">Dark card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="div-products">
+        
+            <div class="card text-white bg-dark mb-3" style="max-width: 25%; margin-right: 1%;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                <h5 class="card-title">Dark card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+
+            <div class="card text-white bg-dark mb-3" style="max-width: 25%; margin-left: 1%; margin-right: 1%;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                <h5 class="card-title">Dark card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+
+            <div class="card text-white bg-dark mb-3" style="max-width: 25%; margin-left: 1%; margin-right: 1%;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                <h5 class="card-title">Dark card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+
+            <div class="card text-white bg-dark mb-3" style="max-width: 25%; margin-left: 1%;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                <h5 class="card-title">Dark card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+<!-- Footer ---------------------------------------------------------------------------------------------------------------------------------- -->
+    <footer></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

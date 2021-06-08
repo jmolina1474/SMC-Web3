@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+
+    <title>Scooter 2</title>
+  </head>
+  <body>
+<!-- Header ---------------------------------------------------------------------------------------------------------------------------------- -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="https://www.transparentpng.com/download/kick-scooter/cet2XS-kick-scooter-clipart-png-photos.png" alt="scooter logo" class="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="products.html">Products</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="help.html">Help/FAQ</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                    <div class="counts">0</div>
+                    <button class="btn2 " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img src="https://i.pinimg.com/originals/15/4f/df/154fdf2f2759676a96e9aed653082276.png" alt="cart" style="max-width: 40px;"></button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+<!-- Main------------------------------------------------------------------------------------------------------------------------------------- -->
+    <main>
+        <!-- Cart--- -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel" style="max-width: 25%;">
+            <div class="offcanvas-header">
+              <h5 id="offcanvasRightLabel">Shopping Cart</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div id="empty">Cart is empty.</div>
+
+              <div id="item1">
+                <div class="card text-white bg-dark mb-3" style="max-width:100%; margin: auto; margin-right: 1%;">
+                <div class="card-header"><h6>Scooter 2</h6></div>
+                <div class="card-body">
+                  <div class="counts">0</div>
+                <h7 class="card-title">Price $50</h7>
+                <img src="Scooter-2.png" alt="" class="cart-img">
+                </div>
+            </div>
+                <button type="button" class="btn2 btn-primary" href="item.html" style="max-width: 75%; margin: auto; margin-bottom: 2%;" id="remove"><a href="#" class="reset">Clear Cart</a></button>
+            </div>
+
+            <br>
+            
+            <button type="button" class="btn btn-primary" href="checkout.html" style="max-width: 75%; margin: auto; margin-bottom: 2%;" onclick="window.location.href = 'checkout.html';" id="checkout">Proceed to Checkout</button>
+
+        </div>
+          </div>
+          
+        <!-- Content -->
+        <div class="div-holder">
+        <div class="div">
+            <div><h1>Scooter 2</h1></div>
+            <br>
+            <div class="item-container">
+                <img src="Scooter-2.png" alt="Image1" class="item-img">
+                <p>Scooter 2 is a brand new manual push scooter that is available now to buy. This is a description. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, provident non sequi, veniam modi in eos architecto illo est aperiam aliquam dolorum! Nam odit eveniet animi iure ipsum deserunt voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, mollitia necessitatibus modi nobis iste perspiciatis voluptates molestiae odit assumenda voluptate magnam odio magni. Vero, veniam quam. Laborum fuga excepturi animi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae in, iusto iste ad incidunt dolore praesentium officia. Illo eveniet aliquid, animi, facere accusamus, excepturi architecto dicta reprehenderit aliquam quo temporibus.</p>
+            </div>
+            <br>
+            <button type="button" class="btn btn-primary" href="item.html" style="max-width: 75%; margin: auto; margin-bottom: 2%;" id="cart-1">Add to Cart</button>
+        </div>
+      </div>
+    </main>
+<!-- Footer ---------------------------------------------------------------------------------------------------------------------------------- -->
+    <footer></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
